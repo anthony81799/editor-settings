@@ -1,0 +1,327 @@
+// Place your settings in this file to override the defaults
+{
+	//#region UI
+	"editor.rulers": [
+		{
+			"column": 80,
+			"color": "#d45c00"
+		}
+	],
+	"editor.minimap.enabled": false,
+	"explorer.compactFolders": false,
+	"workbench.sideBar.location": "right",
+	"window.density.editorTabHeight": "compact",
+	"workbench.layoutControl.enabled": false,
+	"workbench.editor.highlightModifiedTabs": true,
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"zenMode.hideLineNumbers": false,
+	"zenMode.centerLayout": false,
+	"zenMode.hideStatusBar": false,
+	//#region THEME
+	"window.autoDetectColorScheme": true,
+	"workbench.preferredDarkColorTheme": "Darcula Oxidized Modern (No Blue UI)",
+	"workbench.colorTheme": "Darcula Oxidized Modern (No Blue UI)",
+	"workbench.iconTheme": "vscode-icons",
+	//#endregion
+	//#region FONTS
+	"editor.fontFamily": "JetBrains Mono",
+	"terminal.integrated.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"editor.codeLensFontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"editor.inlayHints.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"debug.console.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"scm.inputFontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"notebook.output.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"chat.editor.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"errorLens.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"markdown.preview.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"editor.fontSize": 18,
+	"debug.console.fontSize": 18,
+	"scm.inputFontSize": 18,
+	"terminal.integrated.fontSize": 18,
+	"chat.editor.fontSize": 18,
+	"markdown.preview.fontSize": 18,
+	"editor.fontLigatures": true,
+	//#endregion
+	//#endregion
+	//#region FORMATTING
+	"editor.formatOnSave": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome",
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[python]": {
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+	},
+	//#endregion
+	//#region EDITOR
+	"editor.suggestSelection": "first",
+	"editor.unicodeHighlight.includeComments": true,
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"editor.inlineSuggest.enabled": true,
+	"editor.accessibilitySupport": "off",
+	"editor.linkedEditing": true,
+	"editor.insertSpaces": true,
+	"editor.cursorSurroundingLines": 200,
+	"editor.cursorSurroundingLinesStyle": "default",
+	//#endregion
+	//#region FILES
+	"files.defaultLanguage": "${activeEditorLanguage}",
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	//#endregion
+	//#region TERMINAL
+	"terminal.integrated.defaultProfile.windows": "WSL",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"WSL": {
+			"path": "C:\\WINDOWS\\System32\\wsl.exe"
+		}
+	},
+	"terminal.integrated.shellIntegration.enabled": false,
+	"terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
+	"terminal.integrated.env.windows": {},
+	//#endregion
+	//#region EXTENSIONS
+	"errorLens.statusBarColorsEnabled": true,
+	"errorLens.enabledDiagnosticLevels": [
+		"error",
+		"warning",
+		"info",
+		"hint"
+	],
+	"gopls": {
+		"ui.semanticTokens": true
+	},
+	"go.toolsManagement.autoUpdate": true,
+	"settingsSync.ignoredExtensions": [
+		"ms-vscode-remote.remote-ssh",
+		"ms-vscode-remote.remote-ssh-edit",
+		"ms-vscode.remote-explorer",
+		"ms-vscode-remote.remote-wsl",
+		"d9705996.perl-toolbox",
+		"bmewburn.vscode-intelephense-client",
+		"alexcvzz.vscode-sqlite",
+		"slevesque.shader",
+		"esbenp.prettier-vscode",
+		"dtoplak.vscode-glsllint",
+		"ionide.ionide-fsharp",
+		"bierner.markdown-preview-github-styles",
+		"csharpier.csharpier-vscode",
+		"bierner.github-markdown-preview",
+		"yzhang.markdown-all-in-one",
+		"bierner.markdown-checkbox",
+		"bierner.markdown-footnotes",
+		"bierner.markdown-mermaid",
+		"bierner.markdown-yaml-preamble",
+		"davidanson.vscode-markdownlint",
+		"ms-azuretools.vscode-docker",
+		"felipecaputo.git-project-manager",
+		"ms-edgedevtools.vscode-edge-devtools",
+		"firefox-devtools.vscode-firefox-debug",
+		"sumneko.lua",
+		"github.copilot-chat",
+		"github.copilot"
+	],
+	"vsicons.dontShowNewVersionMessage": true,
+	"better-comments.highlightPlainText": true,
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"syncSettings.gitInitMessage": "profile({{profile}}): init -- {{now|date:iso}}",
+	"syncSettings.gitUpdateMessage": "profile({{profile}}): update -- {{now|date:iso}}",
+	//#endregion
+	//#region EXRTA
+	"git.autofetch": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"window.zoomLevel": 1,
+	"explorer.confirmDelete": false,
+	"workbench.startupEditor": "none",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"js/ts.updateImportsOnFileMove.enabled": "always",
+	"update.showReleaseNotes": false,
+	"telemetry.telemetryLevel": "off",
+	"remote.autoForwardPortsSource": "hybrid",
+	"search.quickOpen.includeHistory": false,
+	"update.mode": "manual",
+	"workbench.settings.editor": "json",
+	"editor.stickyScroll.enabled": true,
+	"terminal.integrated.stickyScroll.enabled": true,
+	"workbench.tree.enableStickyScroll": true,
+	"color-highlight.markRuler": false,
+	"editor.copyWithSyntaxHighlighting": false,
+	"workbench.editor.enablePreview": true,
+	"window.newWindowDimensions": "inherit",
+	// "diffEditor.renderSideBySide":false,
+	"editor.snippetSuggestions": "top",
+	"editor.detectIndentation": true,
+	"workbench.tips.enabled": false,
+	"editor.lightbulb.enabled": "off",
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "gutter",
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
+	"search.useIgnoreFiles": false,
+	"explorer.sortOrder": "type",
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"editor.scrollbar.verticalScrollbarSize": 9,
+	"workbench.activityBar.location": "top",
+	"window.menuBarVisibility": "toggle",
+	"window.commandCenter": false,
+	"workbench.editor.pinnedTabsOnSeparateRow": true,
+	"workbench.editor.wrapTabs": true,
+	"diffEditor.maxComputationTime": 0,
+	"git.openRepositoryInParentFolders": "always",
+	"security.allowedUNCHosts": [
+		"wsl.localhost"
+	],
+	"editor.largeFileOptimizations": false,
+	//#endregion
+	//#region VIM
+	"vim.foldfix": true,
+	"vim.hlsearch": true,
+	"vim.ignorecase": true,
+	"vim.incsearch": true,
+	"vim.leader": " ",
+	"vim.showMarksInGutter": true,
+	"vim.smartRelativeLine": true,
+	"vim.startofline": false,
+	// "vim.useCtrlKeys": false,
+	"vim.useSystemClipboard": true,
+	"vim.mouseSelectionGoesIntoVisualMode": false,
+	"vim.handleKeys": {
+		"<C-d>": true,
+		"<C-s>": false,
+		"<C-z>": false,
+		"<C-c>": false,
+		"<C-f>": false,
+		"<C-h>": false,
+		"<C-y>": false,
+	},
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"<C-w>"
+			],
+			"after": [
+				""
+			]
+		}
+	],
+	"explorer.confirmDragAndDrop": false,
+	"go.inlayHints.assignVariableTypes": true,
+	"go.inlayHints.compositeLiteralFields": true,
+	"go.inlayHints.compositeLiteralTypes": true,
+	"go.inlayHints.constantValues": true,
+	"go.inlayHints.functionTypeParameters": true,
+	"go.inlayHints.parameterNames": true,
+	"go.inlayHints.rangeVariableTypes": true,
+	"go.inlayHints.ignoredError": true,
+	"[shellscript]": {
+		// "editor.defaultFormatter": "mkhl.shfmt",
+		"editor.formatOnSave": true,
+		"files.eol": "\n",
+		"editor.defaultColorDecorators": "never"
+	},
+	"editor.guides.indentation": false,
+	"json.schemaDownload.trustedDomains": {
+		"https://schemastore.azurewebsites.net/": true,
+		"https://raw.githubusercontent.com/microsoft/vscode/": true,
+		"https://raw.githubusercontent.com/devcontainers/spec/": true,
+		"https://www.schemastore.org/": true,
+		"https://json.schemastore.org/": true,
+		"https://json-schema.org/": true,
+		"https://developer.microsoft.com/json-schemas/": true,
+		"https://biomejs.dev": true
+	},
+	//#endregion
+}
