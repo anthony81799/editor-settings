@@ -323,5 +323,6 @@
 		"https://developer.microsoft.com/json-schemas/": true,
 		"https://biomejs.dev": true
 	},
+	"biome.suggestInstallingGlobally": false,
 	//#endregion
 }
