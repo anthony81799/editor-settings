@@ -6,6 +6,8 @@ enabled:
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: anthony81799.darcula-oxidized
     uuid: null
+  - id: Anthropic.claude-code
+    uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: eamodio.gitlens
@@ -18,6 +20,8 @@ enabled:
     uuid: 1daeae2c-17d1-4249-9199-048501a94d30
   - id: naumovs.color-highlight
     uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
+  - id: oderwat.indent-rainbow
+    uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
   - id: rust-lang.rust-analyzer
     uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: usernamehw.errorlens

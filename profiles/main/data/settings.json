@@ -307,7 +307,7 @@
 	"go.inlayHints.rangeVariableTypes": true,
 	"go.inlayHints.ignoredError": true,
 	"[shellscript]": {
-		// "editor.defaultFormatter": "mkhl.shfmt",
+		"editor.defaultFormatter": "mkhl.shfmt",
 		"editor.formatOnSave": true,
 		"files.eol": "\n",
 		"editor.defaultColorDecorators": "never"
