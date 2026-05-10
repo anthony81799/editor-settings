@@ -1,6 +1,4 @@
-disabled:
-  - id: biomejs.biome
-    uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
+disabled: []
 enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
@@ -8,6 +6,8 @@ enabled:
     uuid: null
   - id: Anthropic.claude-code
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
+  - id: biomejs.biome
+    uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: eamodio.gitlens

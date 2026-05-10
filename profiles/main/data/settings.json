@@ -26,7 +26,7 @@
 	//#endregion
 	//#region FONTS
 	"editor.fontFamily": "JetBrains Mono",
-	"terminal.integrated.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+	"terminal.integrated.fontFamily": "'JetBrains Mono Nerd Font', 'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
 	"editor.codeLensFontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
 	"editor.inlayHints.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
 	"debug.console.fontFamily": "'JetBrains Mono', 'fira-code-nerd', 'FiraCode Nerd Font Mono', 'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
