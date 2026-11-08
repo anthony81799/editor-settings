@@ -3,11 +3,12 @@ enabled:
   - id: aaron-bond.better-comments
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: anthony81799.darcula-oxidized
-    uuid: null
   - id: Anthropic.claude-code
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
   - id: biomejs.biome
     uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
+  - id: charliermarsh.ruff
+    uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: eamodio.gitlens
@@ -16,14 +17,26 @@ enabled:
     uuid: 456278dd-7f50-4cbe-8314-ab06540c1057
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: ms-python.debugpy
+    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-python-envs
+    uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: NarasimaPandiyan.jetbrainsmono
     uuid: 1daeae2c-17d1-4249-9199-048501a94d30
   - id: naumovs.color-highlight
     uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
   - id: oderwat.indent-rainbow
     uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
+  - id: oxc.oxc-vscode
+    uuid: 1303f9b3-746c-42de-869c-5f72364302f5
   - id: rust-lang.rust-analyzer
     uuid: 06574cb4-e5dc-4631-8174-a543a4533621
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
+  - id: tauri-apps.tauri-vscode
+    uuid: 53763e89-ec31-4d0c-b220-f714761180e5
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: vscode-icons-team.vscode-icons
