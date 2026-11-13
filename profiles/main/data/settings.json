@@ -71,7 +71,7 @@
     "editor.defaultFormatter": "biomejs.biome",
   },
   "[python]": {
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "editor.insertSpaces": true,
   },
   //#endregion
@@ -84,7 +84,12 @@
   "editor.linkedEditing": true,
   "editor.insertSpaces": true,
   "editor.cursorSurroundingLines": 200,
+  "editor.tabSize": 2,
   "editor.cursorSurroundingLinesStyle": "default",
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.showSnippets": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.showWords": false
   //#endregion
   //#region FILES
   "files.defaultLanguage": "${activeEditorLanguage}",
@@ -230,8 +235,6 @@
   "workbench.editor.enablePreview": true,
   "window.newWindowDimensions": "inherit",
   // "diffEditor.renderSideBySide":false,
-  "editor.snippetSuggestions": "top",
-  "editor.detectIndentation": true,
   "workbench.tips.enabled": false,
   "editor.lightbulb.enabled": "off",
   "editor.overviewRulerBorder": false,
